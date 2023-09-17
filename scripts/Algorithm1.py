@@ -1,0 +1,2 @@
+def make() -> None:
+    pass
