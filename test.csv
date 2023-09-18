@@ -1,5 +1,5 @@
 sid,category,name,price
-1,6414,test_0_algorithm,200
+1,6414,test_1_algorithm,200
 2,6414,test_2_algorithm,800
 3,6414,test_2_algorithm,3200
 3,6414,test_duplicate_sid,80000
