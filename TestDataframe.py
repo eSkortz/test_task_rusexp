@@ -3,25 +3,31 @@ dataframe = [
         'sid' : 1,
         'category' : 6414,
         'name' : 'test_0_algorithm',
-        'price' : 102
+        'price' : 200
     },
     {
         'sid' : 2,
         'category' : 6414,
         'name' : 'test_2_algorithm',
-        'price' : 102
+        'price' : 800
     },
     {
         'sid' : 3,
         'category' : 6414,
         'name' : 'test_2_algorithm',
-        'price' : 102
+        'price' : 3200
+    },
+    {
+        'sid' : 3,
+        'category' : 6414,
+        'name' : 'test_duplicate_sid',
+        'price' : 80000
     },
     {
         'sid' : 4,
         'category' : 6414,
         'name' : 'test_3_algorithm',
-        'price' : 102
+        'price' : 10000
     },
     {
         'sid' : 5,
@@ -37,9 +43,9 @@ dataframe = [
     },
     {
         'sid' : 7,
-        'category' : 6414,
+        'category' : 1,
         'name' : 'test_notfound_category',
-        'price' : None
+        'price' : 4747
     },
     {
         'sid' : 8,
