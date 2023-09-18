@@ -162,13 +162,13 @@ def get_markup(category: int, cost_price: int) -> int:
     
     # * Сверяем себестоимость для определения нужного столбца    
     if cost_price < 200:
-        column = f'cp_{cost_price - (cost_price % 20)}'
+        column = f'cp_{int(cost_price - (cost_price % 20))}'
     elif cost_price < 500:
-        column = f'cp_{cost_price - (cost_price % 50)}'
+        column = f'cp_{int(cost_price - (cost_price % 50))}'
     elif cost_price < 1000:
-        column = f'cp_{cost_price - (cost_price % 100)}'
+        column = f'cp_{int(cost_price - (cost_price % 100))}'
     elif cost_price < 3000:
-        column = f'cp_{cost_price - (cost_price % 200)}'
+        column = f'cp_{int(cost_price - (cost_price % 200))}'
     elif cost_price < 5000:
         column = 'cp_3000'
     elif cost_price < 10000:

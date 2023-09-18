@@ -14,4 +14,4 @@ def make(cost_price: float,
         - loyalty_program*100)/100)
     sum4 = (100 - (markup / ((100 - comission_for_returns - comission_percent*100 - equiring*100 \
         - loyalty_program*100) / 100)))/100
-    return (sum1 + sum2 + sum3) / sum4
+    return round((sum1 + sum2 + sum3) / sum4, 2)

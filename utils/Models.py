@@ -29,8 +29,8 @@ class Product:
 
     
     def logistics(self) -> float:
-        return self.cost_price * get_percent_logistics()
+        return round(self.cost_price * get_percent_logistics(), 2)
     
     
     def delivery(self) -> float:
-        return self.cost_price * get_percent_delivery()
+        return round(self.cost_price * get_percent_delivery(), 2)

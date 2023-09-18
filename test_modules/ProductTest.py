@@ -4,7 +4,7 @@ from utils.Models import Product
 from database.DatabaseUtils import get_markup, \
     get_percent_delivery, get_percent_logistics
 
-class Test1(unittest.TestCase):
+class ProductTest(unittest.TestCase):
 
     def test_cost_price_calculation(self):
         product = Product(sid=1, category=2, name="Test Product", price=50)
